@@ -46,51 +46,35 @@ document.addEventListener('DOMContentLoaded', function() {
     const projectsData = [
         {
             id: 1,
-            title: "Dashboard Financier",
-            imgSrc: "assets/images/image_detail_01.png",
-            description: "Ce tableau de bord financier complet permet de suivre en temps réel les principaux indicateurs de performance d'une entreprise. Il inclut des graphiques dynamiques pour l'analyse des revenus, des coûts, des marges et de la rentabilité. Les données sont automatiquement mises à jour et les utilisateurs peuvent filtrer les résultats par période, département ou produit.",
-            downloadLink: "#dashboard-financier.xlsx",
-            googleSheetLink: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQdtdTUm_UwLBgVBdJ7UYjK-PZIIEPYFMyVlsrIUYJgYyxadiPycR9-QZA7I9T-7Q/pubhtml"
+            title: "Tableau de Bord RH",
+            imgSrc: "assets/images/image_01.png",
+            description: "Ce tableau de bord offre une vue d'ensemble synthétique des effectifs, de l'âge moyen, de la rémunération et de la dynamique d'embauche. Il présente une répartition des effectifs et de la masse salariale par service, des embauches par année, une ventilation par sexe, et une classification par catégories socio-professionnelles.",
+            downloadLink: "#",
+            googleSheetLink: "https://docs.google.com/spreadsheets/d/189yGuWuI0TCJGubWfQFHhmntzmMcfKk4ZfejwwCDGns/edit?usp=sharing"
         },
         {
             id: 2,
-            title: "Analyse Budgétaire",
-            imgSrc: "assets/images/image_detail_02.png",
-            description: "Cet outil d'analyse budgétaire permet de comparer les données réelles aux prévisions budgétaires. Il calcule automatiquement les écarts et les présente sous forme de tableaux et graphiques faciles à interpréter. Des alertes visuelles signalent les écarts significatifs nécessitant une attention particulière. Idéal pour les réunions de revue budgétaire mensuelles.",
-            downloadLink: "#analyse-budgetaire.xlsx",
-            googleSheetLink: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQdtdTUm_UwLBgVBdJ7UYjK-PZIIEPYFMyVlsrIUYJgYyxadiPycR9-QZA7I9T-7Q/pubhtml"
+            title: "Tableau de Bord des Ventes",
+            imgSrc: "assets/images/image_02.png",
+            description: "Ce tableau de bord permet une analyse en temps réel de l'activité commerciale d'une entreprise en suivant la performance des ventes par mois, en évaluant l'efficacité des différents canaux (magasin vs téléphone), en identifiant les vendeurs les plus performants, en analysant la répartition des recettes par article et par pays, tout en assurant le suivi des paiements grâce à l'indicateur « reste à payer » et en proposant un tableau détaillé des transactions avec toutes les informations clés (date, article, canal, nombre de ventes, recettes, CA attendu, reste à payer, pays et vendeur).",
+            downloadLink: "#",
+            googleSheetLink: "https://docs.google.com/spreadsheets/d/1_vRnqWU3swMNC1UASydRhqJLnrrOukCOJ6Nli2LUwgg/edit?usp=sharing"
         },
         {
             id: 3,
-            title: "Reporting Mensuel",
-            imgSrc: "assets/images/image_detail_03.png",
-            description: "Ce template de reporting mensuel automatisé génère des rapports financiers complets en quelques clics. Il suffit d'importer les données brutes et le fichier produit automatiquement les états financiers, analyses de variance et commentaires prédéfinis. Le format est entièrement personnalisable selon les besoins spécifiques de chaque entreprise.",
-            downloadLink: "#reporting-mensuel.xlsx",
-            googleSheetLink: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQdtdTUm_UwLBgVBdJ7UYjK-PZIIEPYFMyVlsrIUYJgYyxadiPycR9-QZA7I9T-7Q/pubhtml"
+            title: "Tableau de Bord de Suivi des Dépenses",
+            imgSrc: "assets/images/image_03.png",
+            description: "Ce tableau de bord permet une gestion financière détaillée en offrant une vue claire de l'équilibre entre revenus et dépenses, une analyse des postes de dépenses par catégories et sous-catégories, un suivi mensuel des flux financiers, ainsi qu'une distinction entre les sources de fonds pour optimiser la trésorerie et l'usage du crédit.",
+            downloadLink: "#",
+            googleSheetLink: "https://docs.google.com/spreadsheets/d/12ryDAnWpRwdIfjd9AVJ7kaJVA6oOzkSluXoPs8XvmN4/edit?usp=sharing"
         },
         {
             id: 4,
             title: "Suivi de Trésorerie",
-            imgSrc: "assets/images/image_detail_04.png",
-            description: "Cet outil de gestion de trésorerie permet de suivre et prévoir les flux de trésorerie sur 12 mois glissants. Il intègre les encaissements prévus, les décaissements programmés et calcule automatiquement le solde de trésorerie prévisionnel. Des alertes sont générées en cas de risque de déficit de trésorerie, permettant d'anticiper les besoins de financement.",
-            downloadLink: "#suivi-tresorerie.xlsx",
-            googleSheetLink: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQdtdTUm_UwLBgVBdJ7UYjK-PZIIEPYFMyVlsrIUYJgYyxadiPycR9-QZA7I9T-7Q/pubhtml"
-        },
-        {
-            id: 5,
-            title: "Outil d'Audit",
-            imgSrc: "assets/images/image_detail_05.png",
-            description: "Cette solution Excel facilite les missions d'audit financier en automatisant les tests de contrôle et les procédures analytiques. Elle inclut des modèles pour l'échantillonnage statistique, l'analyse des journaux comptables et la détection des anomalies. Les résultats sont présentés sous forme de rapports prêts à être intégrés dans les dossiers d'audit.",
-            downloadLink: "#outil-audit.xlsx",
-            googleSheetLink: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQdtdTUm_UwLBgVBdJ7UYjK-PZIIEPYFMyVlsrIUYJgYyxadiPycR9-QZA7I9T-7Q/pubhtml"
-        },
-        {
-            id: 6,
-            title: "Consolidation Financière",
-            imgSrc: "assets/images/image_detail_06.png",
-            description: "Cet outil de consolidation financière permet d'agréger les données de plusieurs entités juridiques en éliminant automatiquement les transactions intragroupe. Il génère un bilan, un compte de résultat et un tableau de flux de trésorerie consolidés conformes aux normes IFRS. Particulièrement utile pour les groupes avec de nombreuses filiales.",
-            downloadLink: "#consolidation-financiere.xlsx",
-            googleSheetLink: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQdtdTUm_UwLBgVBdJ7UYjK-PZIIEPYFMyVlsrIUYJgYyxadiPycR9-QZA7I9T-7Q/pubhtml"
+            imgSrc: "assets/images/image_04.png",
+            description: "Ce tableau de bord offre aux équipes commerciales une vue synthétique et interactive des performances des points de vente, en facilitant l'analyse de la fréquentation, des ventes, des tendances annuelles et de la répartition des clients par localité.",
+            downloadLink: "#",
+            googleSheetLink: "https://docs.google.com/spreadsheets/d/1CuPn3w1p056QkNf4YeN25Lhlk7MlWlL8jPHpo3IWcXw/edit?usp=sharing"
         }
     ];
     
@@ -177,26 +161,32 @@ document.addEventListener('DOMContentLoaded', function() {
                 isValid = false;
             }
             
-            // Si le formulaire est valide, simuler l'envoi
+            // Si le formulaire est valide, ouvrir Outlook
             if (isValid) {
+                // Préparer le sujet et le corps du message pour l'email
+                const subject = 'Contact depuis le Portfolio - ' + name;
+                const body = 'Nom: ' + name + '\n\nEmail: ' + email + '\n\nMessage: ' + message;
+                
+                // Créer l'URL mailto
+                const mailtoUrl = 'mailto:ludompah@gmail.com' + 
+                                  '?subject=' + encodeURIComponent(subject) + 
+                                  '&body=' + encodeURIComponent(body);
+                
                 // Animation de chargement (optionnel)
                 const submitBtn = contactForm.querySelector('button[type="submit"]');
                 const originalText = submitBtn.textContent;
-                submitBtn.textContent = 'Envoi en cours...';
+                submitBtn.textContent = 'Ouverture d\'Outlook...';
                 submitBtn.disabled = true;
                 
-                // Simuler un délai d'envoi (pour l'expérience utilisateur)
+                // Ouvrir la fenêtre d'email
+                window.location.href = mailtoUrl;
+                
+                // Réinitialiser le formulaire et restaurer le bouton après un court délai
                 setTimeout(function() {
-                    // Réinitialiser le formulaire
                     contactForm.reset();
-                    
-                    // Afficher un message de succès
-                    alert('Message envoyé avec succès !');
-                    
-                    // Restaurer le bouton
                     submitBtn.textContent = originalText;
                     submitBtn.disabled = false;
-                }, 1500);
+                }, 1000);
             }
         });
     }
